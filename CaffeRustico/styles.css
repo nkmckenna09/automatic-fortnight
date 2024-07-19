@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D");
+    background-size: 100%;
+    margin: 0; 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    opacity: 80%;
+}
+
+.logo {
+font-size: 48pt;
+font-weight: bold;
+}
+
+.links > a {
+    font-size: 24pt;
+    margin: 20px;
+
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 70;
+    background-color: antiquewhite;
+    opacity: 80;
+}
+
+
+.menu {
+    border: solid black;
+    width: 100%;
+    text-align: center;
+}
+
+
+.menu > td {
+
+    border:  solid black;
+}
